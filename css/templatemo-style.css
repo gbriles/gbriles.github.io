@@ -14,6 +14,22 @@ body
 	font-size: 16px;
 	font-weight: 400;
 }
+a:link
+{
+    color: #cfb991;
+}
+a:visited
+{
+    color: #cfb991;
+}
+a:hover
+{
+    color: #cfb991;
+}
+a:active
+{
+    color: #cfb991;
+}
 
 /* start all section */
 #home,
@@ -36,9 +52,14 @@ body
 #portfolio .fp-slide,
 #portfolio .fp-tableCell,
 
+#resume,
+#resume .fp-slide,
+#resume .fp-tableCell,
+
 footer,
 footer .fp-slide,
 footer .fp-tableCell
+
 {
     height: auto !important;
 }
@@ -54,7 +75,7 @@ h1,h2,h3,h4,h5
 /* end all heading */
 
 /* start all section */
-#work, #about, #portfolio, #contact
+#work, #about, #portfolio, #contact, #resume
     {
         padding-top: 80px;
         padding-bottom: 80px;
@@ -232,6 +253,7 @@ h1,h2,h3,h4,h5
         font-size: 16px;
         text-align: center;
         font-weight: normal;
+        padding-top: 30px;
         
     }
 	
@@ -294,6 +316,7 @@ h1,h2,h3,h4,h5
         font-weight: bold;
         float: right;
     }
+
 /* end about */
 
 /* start portfolio */
@@ -333,6 +356,36 @@ h1,h2,h3,h4,h5
         transform: scale(0.9);
     }
 /* end portfolio */
+
+/* start resume */
+#resume
+    {
+        background: #1a1a1a;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 0px;
+    }
+
+#resume .btn
+    {
+        text-align: center;
+        background: transparent;
+        border: 2px solid #ffffff;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: bold;
+        width: 200px;
+        height: 80px;
+        padding-top: 26px;
+        transition: all 0.4s ease-in-out;
+    }
+#resume .btn:hover
+    {
+        background: #cfb991;
+        border-color: transparent;
+    }
+
+/* end resume */
 
 /* start contact */
 
@@ -392,7 +445,7 @@ footer
     {
         border-top: 1px solid #090909;
         text-align: center;
-        padding-top: 40px;
+        padding-top: 20px;
         padding-bottom: 20px;
     }
 footer hr
