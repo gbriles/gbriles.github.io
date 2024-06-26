@@ -56,8 +56,8 @@ h1,h2,h3,h4,h5
 /* start all section */
 #work, #about, #portfolio, #contact
     {
-        padding-top: 100px;
-        padding-bottom: 120px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
 /* end all section */
 
@@ -172,7 +172,7 @@ h1,h2,h3,h4,h5
 #home
 	{
         /*background: url('../images/home-bg.jpg');*/
-        background: url('../images/PMEA_Headshot.JPG');
+        background: url('../images/PMEA_Headshot_EXT.png');
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 120px;
@@ -184,7 +184,7 @@ h1,h2,h3,h4,h5
         border: 2px solid #cfb991;
         color: #cfb991;
         display: inline-block;
-        letter-spacing: 6px;
+        letter-spacing: 4px;
         padding: 25px 35px;
         margin: 30px 0;
     }
@@ -225,6 +225,14 @@ h1,h2,h3,h4,h5
 #work .media
     {
       margin-top: 30px;
+    }
+
+#work h4
+    {
+        font-size: 16px;
+        text-align: center;
+        font-weight: normal;
+        
     }
 	
 #work .media .fa
