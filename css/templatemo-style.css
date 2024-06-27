@@ -31,6 +31,7 @@ a:active
     color: #cfb991;
 }
 
+
 /* start all section */
 #home,
 #home .fp-slide,
@@ -198,8 +199,9 @@ h1,h2,h3,h4,h5
 	{
         /*background: url('../images/home-bg.jpg');*/
         background: url('../images/PMEA_Headshot_EXT.png');
-        background-size: cover;
+        background-size:cover;
         background-repeat: no-repeat;
+        background-position:top;
         padding-top: 120px;
         padding-bottom: 140px;
         text-align: center;
@@ -207,26 +209,35 @@ h1,h2,h3,h4,h5
 #home h1
     {
         border: 2px solid #cfb991;
+        border-radius: 10px;
         color: #cfb991;
         display: inline-block;
-        letter-spacing: 4px;
-        padding: 25px 35px;
-        margin: 30px 0;
+        letter-spacing: 3px;
+        padding: 20px 20px;
+        margin-block-end: 30px;
+        text-align: center;
     }
 #home h2
+    {   
+        display: flex;
+        height: 80px;
+        align-items:center;
+        justify-content: center;
+        margin-block-end: 30px;
+    }
+
+#home p
     {
-        padding-bottom: 10px;
+        margin-block-end: 50px;
     }
 #home .btn
     {
         background: transparent;
-        border: 2px solid #ffffff;
         color: #ffffff;
         font-size: 16px;
         font-weight: bold;
         width: 180px;
         height: 60px;
-        margin-top: 40px;
         padding-top: 18px;
         transition: all 0.4s ease-in-out;
     }
@@ -605,5 +616,4 @@ footer hr
 #portbody
 {
     background-color: #000000;
-    color
 }
