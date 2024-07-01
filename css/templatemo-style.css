@@ -649,6 +649,7 @@ footer hr
 {
     margin: 15px 20px;
     color: #cfb991;
+    font-size: 24pt;
 }
 
 #portbody h2
@@ -660,3 +661,7 @@ footer hr
     line-height: 22px;
 }
 
+#portbody h3
+{
+    
+}
