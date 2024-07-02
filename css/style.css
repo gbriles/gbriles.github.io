@@ -654,7 +654,35 @@ footer hr
     line-height: 22px;
 }
 
-#portbody h3
+#portbody .portbody-thumb .portbody-overlay
 {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #cfb991;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+}    
+
+#portbody .portbody-thumb:hover .portbody-overlay
+{
+    cursor: pointer;
+    opacity: 0.80;
+    transform: scale(.75);
+    text-align: center;
+    vertical-align: middle;
+}
+
+#portbody h6
+{
+    text-align: center;
+    font-size: 12px;
+    font-weight: lighter;
 }
