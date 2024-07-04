@@ -336,6 +336,14 @@ h1,h2,h3,h4,h5
 /* end about */
 
 /* start portfolio */
+
+#portbody img
+{
+    object-fit: cover;
+    flex: 1;
+    overflow: hidden;
+}
+
 #portfolio
     {
         background: #1a1a1a;
@@ -351,13 +359,11 @@ h1,h2,h3,h4,h5
         align-items: center;
         justify-content: center;
         border: 4px solid #cfb991;
-        margin: 15px;
+        margin: 15px 0;
         position: relative;
-        width:100%;
-        height:100%;
+        height: 40vh;
         object-fit: cover;
         overflow: hidden;
-        
     }
 
 #portfolio .portfolio-thumb .portfolio-overlay
@@ -636,7 +642,14 @@ footer hr
     border: 4px solid #cfb991;
     margin: 15px;
     position: relative;
-    
+    object-fit: cover;
+}
+
+#portbody img
+{
+    object-fit: cover;
+    flex: 1;
+    overflow: hidden;
 }
 
 #portbody .portbody-thumb .portbody-overlay
