@@ -292,7 +292,7 @@ h1,h2,h3,h4,h5
 #home .btn:hover
     {
         background: #000000;
-        scale: 0.9;
+        scale: 0.95;
         border-color: transparent;
         color: #cfb991;
     }
@@ -656,6 +656,7 @@ footer hr
     background: #cfb991;
     color: #1f1f1f;
     border-color: transparent;
+    scale: 0.95;
 }
 
 #portbody
