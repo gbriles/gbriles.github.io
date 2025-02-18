@@ -6,6 +6,7 @@ body
 	font-size: 16px;
 	font-weight: 400;
 }
+
 a:link
 {
     color: #cfb991;
@@ -81,10 +82,9 @@ h1,h2,h3,h4,h5
 /* end all heading */
 
 /* start all section */
-#work, #about, #portfolio, #contact, #resumebox, #resume
+#home, #work, #about, #portfolio, #contact, #resumebox, #resume
     {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding: 80px 20px;
     }
 /* end all section */
 
@@ -198,104 +198,55 @@ h1,h2,h3,h4,h5
 /* start home */       
 #home
 {
-    /*background: url('../images/home-bg.jpg');*/
     background: url('../images/headshot1.jpeg');
-    background-size:cover;
     background-repeat: no-repeat;
-    background-position:top;
-    padding-top: 120px;
-    padding-bottom: 140px;
-    text-align: center;
-}
-#home h1
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bolder;
-    font-size: 48px;
-    color: #cfb991;
-    letter-spacing: 4px;
-    padding: 20px 20px;
-    text-shadow: 
-        0.05em 0 0.05em black,
-        0 0.05em 0.05em black,
-        -0.05em 0 0.05em black,
-        0 -0.05em 0.05em black,
-        -0.05em -0.05em 0.05em black,
-        -0.05em 0.05em 0.05em black,
-        0.05em -0.05em 0.05em black,
-        0.05em 0.05em 0.05em black;
+    background-size: cover;
+    background-position: top;
+    text-align: right;
+    min-height: 80vh;
+    max-height: 80vh;
 }
 
-#home h2
-{   
-    display: flex;
-    height: 80px;
-    font-size: 32px;
-    align-items:center;
-    justify-content: center;
+#home h1
+{
     color: #cfb991;
+    font-size: 5vh;
 }
 
 #home .rotate
 {
-    display: inline-flex;
-    height: 80px;
-    font-size: 32px;
-    align-items:center;
-    justify-content: center;
-    color: #cfb991;
-    font-weight: bold;
-    text-shadow: 
-        0.05em 0 0.05em black,
-        0 0.05em 0.05em black,
-        -0.05em 0 0.05em black,
-        0 -0.05em 0.05em black,
-        -0.05em -0.05em 0.05em black,
-        -0.05em 0.05em 0.05em black,
-        0.05em -0.05em 0.05em black,
-        0.05em 0.05em 0.05em black;
+    color: lightgrey;
+    font-size: 3.5vh;
 }
 
 #home p
-    {
-        margin-block-end: 50px;
-        color: #cfb991;
-        font-weight: bold;
-        text-shadow: 
-            0.05em 0 0.05em black,
-            0 0.05em 0.05em black,
-            -0.05em 0 0.05em black,
-            0 -0.05em 0.05em black,
-            -0.05em -0.05em 0.05em black,
-            -0.05em 0.05em 0.05em black,
-            0.05em -0.05em 0.05em black,
-            0.05em 0.05em 0.05em black;
-    }
+{
+    color: lightgrey;
+    font-size: 1.8vh;
+}
+
 #home .btn
-    {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        background: #cfb991;
-        border-color: #000000;
-        border-radius: 10px;
-        border-width: 2px;
-        color: #000000;
-        font-size: 16px;
-        font-weight: bold;
-        width: 180px;
-        height: 60px;
-        transition: all 0.4s ease-in-out;
-    }
+{
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(207, 185, 145, 0.75);
+    border-color: #000000;
+    border-radius: 10px;
+    border-width: 2px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+    padding: 10px 20px;
+}
 #home .btn:hover
-    {
-        background: #000000;
-        scale: 0.95;
-        border-color: transparent;
-        color: #cfb991;
-    }
+{
+    background: #000000;
+    scale: 0.95;
+    border-color: transparent;
+    color: #cfb991;
+}
 /* end home */
 
 /* start work */
@@ -310,16 +261,11 @@ h1,h2,h3,h4,h5
 
 #work .media
     {
-      margin-top: 30px;
     }
 
 #work h4
     {
-        font-size: 16px;
-        text-align: center;
-        font-weight: normal;
-        padding-top: 30px;
-        
+
     }
 	
 #work .media .fa
@@ -343,10 +289,8 @@ h1,h2,h3,h4,h5
     }
 #work .media .media-heading
     {
-        font-weight: 600;
-        font-size: 20px;
-        padding-bottom: 10px;
     }
+
 /* end work */
 
 /* start about */
@@ -386,7 +330,7 @@ h1,h2,h3,h4,h5
 
 /* start portfolio */
 
-#portbody img
+#portfolio img
 {
     object-fit: cover;
     flex: 1;
@@ -751,3 +695,4 @@ footer hr
     font-size: 12px;
     font-weight: lighter;
 }
+

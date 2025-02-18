@@ -15,7 +15,7 @@
 		<!-- animate -->
 		<link rel="stylesheet" href="css/animate.min.css">
 		<!-- bootstrap -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 		<!-- font-awesome -->
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<!-- google font -->
@@ -23,86 +23,94 @@
 		<!-- fullpage -->
 		<link rel="stylesheet" href="css/jquery.fullPage.css">
 		<!-- custom -->
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/stylenew.css">
 
 	</head>
 	<body>
 
 	<div id="fullpage">
 
-		<!-- start home -->
-		<div id="home" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-2"></div>
-					<div class="col-8 wow fadeIn" data-wow-delay=".4s">
-						<h1>Grayson Briles</h1>
+        <!-- start home -->
+		<div id="home" class="d-flex" style="padding: 3vh;">
+			<div class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
+				<div class="row justify-content-end">
+					<div class="col-7 col-sm-6 col-md-5" style="background-color: rgba(0, 0, 0, 0.35); padding: 10px;">
+						<h1 class="wow fadeInUp" data-wow-delay="0.2s"> Grayson Briles</h1>
+						<h2 class="rotate" data-wow-delay="0.3s"> STUDENT, DESIGN, ANALYSIS, AUTOMOTIVE, AEROSPACE </h2>
+						<p class="wow fadeInUp" data-wow-delay="0.4s">Third-year mechanical engineering undergraduate student with interests in product design and intellectual property law</p>
+						<a href="Resume.pdf" class="btn btn-default smoothScroll wow fadeInUp " data-wow-delay="0.5s"> View Resume</a>
 					</div>
-					<div class="col-2"></div>
-					<div class="col-8 wow fadeIn" data-wow-delay=".4s">
-						<h2 class="rotate"> ENGINEERING STUDENT, DESIGN &AMP; ANALYSIS, AUTOMOTIVE &AMP; AEROSPACE </h2>
-					</div>
-					<div class="col-2"></div>
-					<div class="col-8 wow fadeIn" data-wow-delay=".4s", style="margin-top: 30px">
-						<p >Third-year mechanical engineering undergraduate student with interests in product design and intellectual property law</p>
-						<a href="Resume.pdf" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay=".4s"> View Resume</a>
-					</div>
-					<div class="col-2"></div>
 				</div>
 			</div>
 		</div>
 		<!-- end home -->
 
 		<!-- start work -->
-		<div id="work" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 wow fadeInUp" data-wow-delay="0.2s">
-						<h2>WHAT I DO</h2>
+		<div id="work" class="d-flex">
+			<div class="container-fluid">
+				<div class="row align-content-start" style="padding-bottom: 3vh">
+					<div class="col-12">
+						<h1> WHAT I DO </h1>
 					</div>
-                </div>  
-                
-                <div class="row">
-					<div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.3s">
-						<div class="media">
-							<div class="media-object media-left">
-								<i class="fa fa-wrench"></i>
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">Automotive</h3>
-								<p>Design and manufacturing experience as a member of Formula SAE <!-- &AMP; Purdue Electric Racing --></p>
-							</div>
-						</div>
-					</div>
-                    
-					<div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.4s">
-						<div class="media">
-							<div class="media-object media-left">
-								<i class="fa fa-plane"></i>
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">Aerospace</h3>
-								<p>Two internship experiences at Bell Flight working with helicopter design and manufacturing</p>
-							</div>
-						</div>
-					</div>
-                    
-					<div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.5s">
-						<div class="media">
-							<div class="media-object media-left">
-								<i class="fa fa-users"></i>
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">Outreach</h3>
-								<p>Bringing STEM education programs to the Purdue and greater Lafayette region through PMEA</p>
-							</div>
-						</div>
-					</div>
-
 				</div>
+				
 				<div class="row">
-					<div class="col-md-12 wow fadeInUp" data-wow-delay=".8s">
-						<h4>See the <a href="#portfolio">portfolio</a> and <a href="Resume.pdf">resume</a> sections for more info.</h4>
+					<div class="col-md-4 col-sm-12">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-2">
+									<div class="media">
+										<div class="media-object media-left">
+											<i class="fa fa-wrench"></i>
+										</div>
+									</div>
+								</div>
+								<div class="col-9" style="margin-left: 30px; text-align: left;">
+									<div class="media-body">
+										<h3 class="media-heading">Automotive</h3>
+										<p>Design and manufacturing experience as a member of Formula SAE <!-- &AMP; Purdue Electric Racing --></p>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-2" style="justify-content: left;">
+									<div class="media">
+										<div class="media-object media-left">
+											<i class="fa fa-plane"></i>
+										</div>
+									</div>
+								</div>
+								<div class="col-9" style="margin-left: 30px; text-align: left;">
+									<div class="media-body">
+										<h3 class="media-heading">Aerospace</h3>
+										<p>Two internship experiences at Bell Helicopter working with helicopter design and manufacturing <!-- &AMP; Purdue Electric Racing --></p>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-2" style="justify-content: left;">
+									<div class="media">
+										<div class="media-object media-left">
+											<i class="fa fa-users"></i>
+										</div>
+									</div>
+								</div>
+								<div class="col-9" style="margin-left: 30px; text-align: left;">
+									<div class="media-body">
+										<h3 class="media-heading">Outreach</h3>
+										<p>Bringing STEM education programs to the Purdue and greater Lafayette region through PMEA <!-- &AMP; Purdue Electric Racing --></p>
+								</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -110,13 +118,20 @@
 		<!-- end work -->
 
 		<!-- start about -->
-		<div id="about" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 col-xs-11 wow fadeInLeft" data-wow-delay="0.4s">
-						<h2>ABOUT ME</h2>
-						<h4>STUDENT &AMP; ENGINEERING ENTHUSIAST</h4>
-						<p> Born and raised in Fort Worth, Texas, but currently attending Purdue University in West Lafayette, IN. I'm pursuing a bachelor's degree in mechanical engineering with a minor in intellectual property law for engineers, and I hope to pursue law school following graduation to become a patent lawyer.</p>
+		<div id="about" class="d-flex">
+			<div class="container-fluid">
+				<div class="row" style="">
+					<h1> About Me </h1>
+				</div>
+				<div class="row align-content-start" style="">
+					<div class="col-md-4 col-sm-12">
+						<div class="image">
+							<img src="images/hobbies/IMG_2500.JPG" class="img-fluid" alt="Sophomore Design Project Group Photo" style="width: 100%; ">
+						</div>
+					</div>
+					<div class="col-md-8 col-sm-12" style="text-align: left;">
+						<h2>ENGINEERING STUDENT</h2>
+						<p> I was born and raised in Fort Worth, Texas and currently attending Purdue University in West Lafayette, IN. I'm pursuing a bachelor's degree in mechanical engineering with a minor in intellectual property law for engineers, and I hope to pursue law school following graduation to become a patent lawyer.</p>
 						<p> My <a href="">extracurricular involvements</a> include Purdue Mechanical Engineering Ambassadors (PMEA), Purdue Electric Racing (PER), and I serve as a teaching assistant for the Purdue Honors College First Year Engineering Program. I was also previously involved in Formula SAE and the Tower of Power Jazz Band, both at Purdue.</p>
 						<p> My <a href="">hobbies</a> include music, watersports, reading, coding, working on cars, backpacking, electronics, and coffee. </p>
 					</div>
@@ -126,102 +141,89 @@
 		<!-- end about -->
 
 		<!-- start portfolio -->
-		<div id="portfolio" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-12 wow fadeIn" data-wow-delay="0.2s">
-						<h1> Portfolio </h1>
-					</div>
+		<div id="portfolio" class="d-flex">
+			<div class="container-fluid">
+				<div class="row" style="padding-bottom: 3vh">
+					<h1> Portfolio </h1>
 				</div>
+				
 				<div class="row">
-					<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.4s">
-						<div class="portfolio-thumb">
-							<a href="portfolio1.html"><img src="images/formula/Manuf_EXT.png" class="img-responsive" alt="portfolio img"></a>
-							<div class="portfolio-overlay">
-								<a href="portfolio1.html"><h3>Formula SAE &mdash; Brake System </h3></a>
+					<div class="col-md-8 col-sm-12">
+						<div class="image">
+							<a href="portfolio_sophdes.html"><img src="images/soph design/SophDesign_Poster_2-1.png" class="img-fluid" alt="Sophomore Design Project Group Photo"></a>
+							<div class="overlay">
+								<a href="portfolio_sophdes.html"><h3>Sophomore Design &mdash; Vehicle Impact Attenuator Project </h3></a>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-8 col-xs-12 wow fadeIn" data-wow-delay="0.6s">
-						<div class="portfolio-thumb">
-							<a href="portfolio2.html"><img src="images/soph design/SophDesign_Poster_2-1.png" class="img-responsive" alt="portfolio img"></a>
-								<div class="portfolio-overlay">
-									<a href="portfolio2.html"><h3>Sophomore Design &mdash; Vehicle Impact Attenuator Project </h3></a>
-								</div>
+					<div class="col-md-4 col-sm-12">
+						<div class="image">
+							<a href="portfolio_formula.html"><img src="images/formula/Manuf_EXT.png" class="img-fluid" alt="Formula SAE Brakes Project"></a>
+							<div class="overlay">
+								<a href="portfolio_sophdes.html"><h3>Formula SAE &mdash; Brake System </h3></a>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col">
-						<p><i> Note: This website is also one of my projects! I'm still actively developing it as I attempt to learn HTML, CSS, and JavaScript. I hope you like it :) </i></p>
-						<p><i> Last Updated: 07/01/2024 </i></p>
-					</div>
-				</div>
+			
 			</div>
 		</div>
 		<!-- end portfolio -->
 
 		<!-- start contact -->
-		<div id="contact" class="section">
-			<div class="container">
+
+		<div id="contact">
+			<div class="container-fluid">
 				<div class="row">
-					<div class="col-lg-5 col-lg-offset-1 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-						<address>
-							<p class="contact-title">CONTACT ME</p>
-							<p><i class="fa fa-phone"></i> +1 817-307-8827</p>
-							<p><i class="fa fa-envelope-o"></i> gray.briles@yahoo.com</p>
-							<i style="margin: 0 0" class="fa fa-map-marker"></i>
-							<p style="margin: -47px 0 0 75px">120 Diamond Rose Dr</p>
-							<p style="margin: 0px 0 0 75px">Burleson TX, 76028</p>
-						</address>
+					<div class="col">
+
 					</div>
-					<div class="col-lg-6 col-md-6 col-xs-10 wow fadeInUp" data-wow-delay="0.5s">
-						<form role="form" method="post" action="#">
-							<input name="name" type="text" class="form-control" id="name" placeholder="Your Name">
-							<input name="email" type="email" class="form-control" id="email" placeholder="Your Email">
-							<textarea name="message" rows="5" class="form-control" id="message" placeholder="Your Message"></textarea>
-							<input name="send" type="submit" class="form-control" id="send" value="SEND ME">
-						</form>
-					</div>
-					<div class="col-md-1 col-sm-1"></div>
 				</div>
 			</div>
 		</div>
+
 		<!-- end contact -->
 
 		<!-- start footer -->
-		<footer>
-			<div class="container">
+		<div id="footer" class="d-flex">
+			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-12 wow fadeIn" data-wow-delay="0.7s">
 						<p>Copyright &copy; 2024 Grayson Briles</p>
-						<ul class="social-icon">
-							<li><a href="https://www.linkedin.com/in/gbriles/" target="_blank" rel="noopener noreferrer" class="fa fa-linkedin-square"></a></li>
-							<li><a href="https://www.instagram.com/gray_briles/" target="_blank" rel="noopener noreferrer" class="fa fa-instagram"></a></li>
-							<li><a href="https://www.facebook.com/grayson.briles/" target="_blank" rel="noopener noreferrer" class="fa fa-facebook"></a></li>
-						</ul>
+					</div>
+				</div>
+				<div class="container-fluid" style="width: 150px">
+					<div class="row">
+						<div class="col">
+							<a href="https://www.linkedin.com/in/gbriles/" target="_blank" rel="noopener noreferrer" class="fa fa-linkedin-square"></a>
+						</div>
+						<div class="col">
+							<a href="https://www.instagram.com/gray_briles/" target="_blank" rel="noopener noreferrer" class="fa fa-instagram"></a>
+						</div>
+						<div class="col">
+							<a href="https://www.facebook.com/grayson.briles/" target="_blank" rel="noopener noreferrer" class="fa fa-facebook"></a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</footer>
 		<!-- end footer -->
+    </div>
 
-	</div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- fullpage -->
+    <script src="js/jquery.fullPage.js"></script>
+    <!-- smoothScroll -->
+    <script src="js/smoothscroll.js"></script>
+    <!-- wow -->
+    <script src="js/wow.min.js"></script>
+    <!-- text rotater -->
+    <script src="js/jquery.simple-text-rotator.js"></script>
+    <!-- custom -->
+    <script src="js/custom.js"></script>
 
-		<!-- jQuery -->
-		<script src="js/jquery.js"></script>
-		<!-- bootstrap -->
-		<script src="js/bootstrap.min.js"></script>
-		<!-- fullpage -->
-		<script src="js/jquery.fullPage.js"></script>
-		<!-- smoothScroll -->
-		<script src="js/smoothscroll.js"></script>
-		<!-- wow -->
-		<script src="js/wow.min.js"></script>
-		<!-- text rotater -->
-		<script src="js/jquery.simple-text-rotator.js"></script>
-		<!-- custom -->
-		<script src="js/custom.js"></script>
-
-	</body>
+</body>
 </html>
